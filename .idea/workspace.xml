@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13ab701b-4d80-42f8-a2d2-0c81903e5a70" name="Default Changelist" comment="几种设计模式的样例：&#10;本次提交有工厂模式，抽象工厂模式，单例模式，建造者模式，原型模式，适配器模式，桥接模式，过滤器模式">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/AbstractFactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/AbstractFactory/imple/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/AbstractFactory/imple/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Color/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Color/imple/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Color/imple/Green.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Color/imple/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Shape/imple/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Shape/imple/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/Shape/imple/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/SuperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/mian/SuperFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AbstractFactoryPattern/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/AdvanceMediaPlayer/AdvancedMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/AdvanceMediaPlayer/Impl/Mp4MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/AdvanceMediaPlayer/Impl/VlcMediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/MediaPlayer/Impl/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/MediaPlayer/Impl/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/MediaPlayer/MediaPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/AdapterPattern/main/AdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BridgePattern/DrawAPI/DrawAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BridgePattern/DrawAPI/Impl/GreenCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BridgePattern/DrawAPI/Impl/RedCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BridgePattern/Shape/Impl/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BridgePattern/Shape/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BridgePattern/mian/BridgePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/impl/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/impl/BurgerImpl/ChickenBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/impl/BurgerImpl/VegBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/impl/ColdDrink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/impl/ColdDrinkImpl/Coke.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Item/impl/ColdDrinkImpl/Pepsi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Meal/Meal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Meal/MealBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Packing/Packing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Packing/impl/Bottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/Packing/impl/Wrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/main/BuilderPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/BuilderPattern/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FactoryPattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FactoryPattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FactoryPattern/mian/factortPatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FactoryPattern/model/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FactoryPattern/model/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FactoryPattern/model/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Criteria/Criteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Criteria/Impl/AndCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Criteria/Impl/CriteriaFemale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Criteria/Impl/CriteriaMale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Criteria/Impl/CriteriaSingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Criteria/Impl/OrCriteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/FilterPattern/main/CriteriaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/PrototypePattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/PrototypePattern/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/PrototypePattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/PrototypePattern/ShapeCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/PrototypePattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/PrototypePattern/main/PrototypePatternTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/LazyNotSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/LazySecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/LazySecurityQuickly.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/LazySecurityQuicklyStaticInnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/NotLazySecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/mian/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/SingletonPattern/说明" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lifujian/sword/multiProcess/ComPrince.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lifujian/sword/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/DesignPattern.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/AbstractFactory/AbstractFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/AbstractFactory/imple/ColorFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/AbstractFactory/imple/ShapeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Color/Color.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Color/imple/Blue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Color/imple/Green.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Color/imple/Red.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Shape/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Shape/imple/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Shape/imple/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/Shape/imple/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/SuperFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AbstractFactoryPattern/mian/SuperFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/AdvanceMediaPlayer/AdvancedMediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/AdvanceMediaPlayer/Impl/Mp4MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/AdvanceMediaPlayer/Impl/VlcMediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/MediaPlayer/Impl/AudioPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/MediaPlayer/Impl/MediaAdapter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/MediaPlayer/MediaPlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/AdapterPattern/main/AdapterTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BridgePattern/DrawAPI/DrawAPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BridgePattern/DrawAPI/Impl/GreenCircle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BridgePattern/DrawAPI/Impl/RedCircle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BridgePattern/Shape/Impl/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BridgePattern/Shape/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BridgePattern/mian/BridgePatternTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/impl/Burger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/impl/BurgerImpl/ChickenBurger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/impl/BurgerImpl/VegBurger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/impl/ColdDrink.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/impl/ColdDrinkImpl/Coke.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Item/impl/ColdDrinkImpl/Pepsi.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Meal/Meal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Meal/MealBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Packing/Packing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Packing/impl/Bottle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/Packing/impl/Wrapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/BuilderPattern/main/BuilderPatternTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FactoryPattern/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FactoryPattern/ShapeFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FactoryPattern/mian/factortPatternTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FactoryPattern/model/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FactoryPattern/model/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FactoryPattern/model/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Criteria/Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Criteria/Impl/AndCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Criteria/Impl/CriteriaFemale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Criteria/Impl/CriteriaMale.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Criteria/Impl/CriteriaSingle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Criteria/Impl/OrCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/Person.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/FilterPattern/main/CriteriaTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/PrototypePattern/Circle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/PrototypePattern/Rectangle.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/PrototypePattern/Shape.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/PrototypePattern/ShapeCache.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/PrototypePattern/Square.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/PrototypePattern/main/PrototypePatternTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/LazyNotSecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/LazySecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/LazySecurityQuickly.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/LazySecurityQuicklyStaticInnerClass$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/LazySecurityQuicklyStaticInnerClass$LazySecurityQuicklyStaticInnerClassHolder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/LazySecurityQuicklyStaticInnerClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/NotLazySecurity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/SingletonPattern/mian/SingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/lifujian/sword/multiProcess/ComPrince.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/lifujian/sword/AppTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="DesignPattern" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="252" />
+    <option name="y" value="37" />
+    <option name="width" value="1385" />
+    <option name="height" value="490" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sword" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DesignPattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sword" type="462c0819:PsiDirectoryNode" />
+              <item name="SingletonPattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TreeTest" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\SwordInstall\SVN</configuration>
+    <option name="runUnderTerminal" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13ab701b-4d80-42f8-a2d2-0c81903e5a70" name="Default Changelist" comment="" />
+      <created>1571211850622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571211850622</updated>
+      <workItem from="1571211855628" duration="759000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="759000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info id="JRebel" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Problems" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Console" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" visible="true" weight="0.43371758" />
+      <window_info anchor="right" id="Maven" weight="0.3297587" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="BPMNPalette" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="几种设计模式的样例：&#10;本次提交有工厂模式，抽象工厂模式，单例模式，建造者模式，原型模式，适配器模式，桥接模式，过滤器模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="几种设计模式的样例：&#10;本次提交有工厂模式，抽象工厂模式，单例模式，建造者模式，原型模式，适配器模式，桥接模式，过滤器模式" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
